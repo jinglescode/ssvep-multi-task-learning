@@ -14,7 +14,7 @@ Using multi-task learning to capture signals simultaneously from the fovea effic
 
 #### Compare classification accuracies against [TRCA](https://www.sciencedirect.com/science/article/pii/S105381191200852X) and [FBCCA](https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046008/meta):
 
-![figures-acc-by-subjects](https://user-images.githubusercontent.com/1694368/91679299-7f26ad00-eb7a-11ea-8d39-90b8ce9cee09.png)
+![figures-acc-by-subjects](https://user-images.githubusercontent.com/1694368/92562604-d29aa880-f2a8-11ea-9d4d-9d99236e88d7.png)
 
 #### Visual response map:
 
