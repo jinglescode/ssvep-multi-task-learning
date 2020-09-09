@@ -1,7 +1,7 @@
 title:               Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping
 description:         "Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field."
 url:                 https://jinglescode.github.io/ssvep-multi-task-learning/
-baseurl:             ''
+baseurl:             '/ssvep-multi-task-learning'
 permalink:           pretty
 
 author:
