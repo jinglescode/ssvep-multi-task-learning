@@ -1,1 +1,25 @@
-theme: jekyll-theme-dinky
+title:               Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping
+description:         "Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field."
+url:                 https://jinglescode.github.io/ssvep-multi-task-learning/
+baseurl:             ''
+permalink:           pretty
+
+author:
+  name:              Khok Hong Jing
+  url:               https://jinglescode.github.io/
+  email:             jinglescode@gmail.com
+
+defaults:
+  - scope:
+      path: "*"
+    values:
+      layout: default
+
+paper_linK: google.com
+github_link: https://github.com/jinglescode/ssvep-multi-task-learning
+medium_linK: medium.com
+
+google_analytics_id: UA-49548145-2
+
+sass:
+    sass_dir: ./public/sass

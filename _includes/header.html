@@ -1,0 +1,34 @@
+<!doctype html>
+<head>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+
+  <title>{{ site.title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.url }}/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.url }}/atom.xml">
+
+  <!-- Favicons -->
+  <link rel="icon" href="{{ site.url }}/img/favicon.png">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
+
+  </head>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ "/public/css/animate.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/public/css/style.css" | prepend: site.baseurl }}">
+
+</head>
+<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+
+<div class="main container" id="top">
