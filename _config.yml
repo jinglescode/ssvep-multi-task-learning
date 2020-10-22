@@ -15,9 +15,9 @@ defaults:
     values:
       layout: default
 
-paper_linK: google.com
+paper_linK: https://github.com/jinglescode/ssvep-multi-task-learning/blob/master/Deep-Multi-Task-Learning-for-SSVEP-Detection-and-Visual-Response-Mapping.pdf
 github_link: https://github.com/jinglescode/ssvep-multi-task-learning
-medium_linK: medium.com
+medium_linK: https://towardsdatascience.com/improve-glaucoma-assessment-with-brain-computer-interface-and-machine-learning-6c3b774494f8
 
 google_analytics_id: UA-49548145-2
 
