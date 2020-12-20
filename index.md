@@ -11,9 +11,7 @@ Using multi-task learning to efficiently captures signals simultaneously from th
 
 ## Introduction
 
-Humans are good at picking up sensory cues that cause a drastic change or pain. But what about gradual changes, like deteriorating eyesight, when the changes are so slight and so slow that people would not be able to notice it.
-
-The basis for healthcare in many countries is for patients to look for medical care when they are symptomatic. With this approach, individuals would need to know what their symptoms are. But what about asymptomatic diseases? That people would not be able to notice until a later stage, where their quality of life is significantly affected due to vision loss.
+Humans are good at picking up sensory cues that cause a drastic change or pain. But what about gradual changes, like deteriorating eyesight, when the changes are so slight and so slow that people would not be able to notice it. The basis for healthcare in many countries is for patients to look for medical care when they are symptomatic. With this approach, individuals would need to know what their symptoms are. But what about asymptomatic diseases? That people would not be able to notice until a later stage, where their quality of life is significantly affected due to vision loss.
 
 This is Glaucoma.
 
@@ -27,9 +25,7 @@ This research work tackles this issue by applying [brain-computer interface](htt
 
 ## About glaucoma and its impact
 
-[Glaucoma](https://en.wikipedia.org/wiki/Glaucoma) is known as a “silent thief of sight”. It is an eye condition that gradually develops over time, stealing away vision. Bit by bit, you are slowly becoming blind, and you don’t realize it until it’s too late. Vision loss from glaucoma once it has occurred, is permanent.
-
-It has no warning signs; as you can see from this example, when both eyes have different affected regions, the patients will not notice it until at an advanced stage.
+[Glaucoma](https://en.wikipedia.org/wiki/Glaucoma) is known as a “silent thief of sight”. It is an eye condition that gradually develops over time, stealing away vision. Bit by bit, you are slowly becoming blind, and you don’t realize it until it’s too late. Vision loss from glaucoma once it has occurred, is permanent. It has no warning signs; as you can see from this example, when both eyes have different affected regions, the patients will not notice it until at an advanced stage.
 
 ![](public/imgs/compare-left-right-eye.jpg)
 
@@ -43,37 +39,17 @@ Glaucoma damage to the optic nerve is irreversible, and it progresses in the maj
 
 ## Limitations of the existing screening method
 
-The diagnosis of glaucoma involves the patients to assess their visual functions via a visual field test with a physician. A [visual field test](https://www.glaucoma.org/treatment/what-is-a-visual-field-test.php) is a method of measuring an individual’s vision — central and peripheral vision. Visual field testing maps the visual fields of each eye individually and can detect blind spots ([scotomas](https://en.wikipedia.org/wiki/Scotoma)), as well as more subtle areas of dim vision. The test would examine any defects in the patient’s visual fields and function, such as losing peripheral vision.
+The diagnosis of glaucoma involves the patients to assess their visual functions via a visual field test with a physician. A [visual field test](https://www.glaucoma.org/treatment/what-is-a-visual-field-test.php) is a method of measuring an individual’s vision — central and peripheral vision. Visual field testing maps the visual fields of each eye individually and can detect blind spots ([scotomas](https://en.wikipedia.org/wiki/Scotoma)), as well as more subtle areas of dim vision. The test would examine any defects in the patient’s visual fields and function, such as losing peripheral vision. The purpose of glaucoma screening tests is to detect those with early-stage disease so that these patients can be treated to reduce the risk of vision loss. How can we measure visual fields?
 
-The purpose of glaucoma screening tests is to detect those with early-stage disease so that these patients can be treated to reduce the risk of vision loss.
+[Standard automated perimetry](https://eyewiki.aao.org/Standard_Automated_Perimetry), in short, we call it SAP. This is the current method that physicians use to assess the blind areas in the visual field, to monitor visual function for glaucoma patients. The examiner would perform the test one eye at a time. It will present a series of stimuli (which are spots of blinking lights), one at a time, while the patient has to maintain fixation at a central target during the entire procedure. The patient presses a button if and when they see the light. These responses would then be recorded and form a map of the patient’s field of view.
 
-How can we measure visual fields?
+This visual field test by SAP is a subjective examination. It requires the patient to understand the testing instructions, fully cooperate, and complete the entire visual test to provide useful test results. The test procedures take about 10 minutes per eye. 10 minutes of absolute focus and attention on a central point. 10 minutes of remembering to press a button when the stimulus is shown. Therefore, it is common to encounter false positives results as the patients press the button even though there is no stimulus present.
 
-[Standard automated perimetry](https://eyewiki.aao.org/Standard_Automated_Perimetry), in short, we call it SAP. This is the current method that physicians use to assess the blind areas in the visual field, to monitor visual function for glaucoma patients.
+There is also a high false negatives rates when the patient does not respond to a light stimulus that should have been detected. This is especially so when the patient is not paying attention during the course of the test. The patient could lose fixation to the central target due to fatigue and distraction, affecting the test results’ reliability.
 
-The examiner would perform the test one eye at a time. It will present a series of stimuli (which are spots of blinking lights), one at a time, while the patient has to maintain fixation at a central target during the entire procedure. The patient presses a button if and when they see the light. These responses would then be recorded and form a map of the patient’s field of view.
+All these conflicting results hinder the physician’s decision to make a diagnosis. The reliability of a single measurement may be low; several consistent measurements are needed to establish the presence of defects. As such, more multiple tests are needed, which in turn can lead to a delay in diagnosis. These factors highlight a need for a technological solution that provides an objective assessment to improve visual field test.
 
-This visual field test by SAP is a subjective examination.
-
-It requires the patient to understand the testing instructions, fully cooperate, and complete the entire visual test to provide useful test results.
-
-The test procedures take about 10 minutes per eye. 10 minutes of absolute focus and attention on a central point. 10 minutes of remembering to press a button when the stimulus is shown.
-
-Therefore, it is common to encounter false positives results as the patients press the button even though there is no stimulus present.
-
-There is also a high false negatives rates when the patient does not respond to a light stimulus that should have been detected. This is especially so when the patient is not paying attention during the course of the test.
-
-The patient could lose fixation to the central target due to fatigue and distraction, affecting the test results’ reliability.
-
-All these conflicting results hinder the physician’s decision to make a diagnosis. The reliability of a single measurement may be low; several consistent measurements are needed to establish the presence of defects. As such, more multiple tests are needed, which in turn can lead to a delay in diagnosis.
-
-These factors highlight a need for a technological solution that provides an objective assessment to improve visual field test.
-
-How can we remove the subjectivity from the current visual field test procedure?
-
-What can we use to measure visual fields more precisely instead of relying on the patient’s pressing on a button?
-
-Can we shorten the time for visual field assessment?
+How can we remove the subjectivity from the current visual field test procedure? What can we use to measure visual fields more precisely instead of relying on the patient’s pressing on a button? Can we shorten the time for visual field assessment?
 
 ## Combining brain-computer interface and machine learning
 
