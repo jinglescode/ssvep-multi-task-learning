@@ -3,11 +3,7 @@ layout: default
 title: Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8isS5gR0wtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Video Presentation on YouTube](https://www.youtube.com/watch?v=8isS5gR0wtM)
-
-Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field.
+Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field. Watch our [video presentation on YouTube](https://www.youtube.com/watch?v=8isS5gR0wtM).
 
 ![figures-main-idea-big](public/imgs/figures-main-idea.png)
 
