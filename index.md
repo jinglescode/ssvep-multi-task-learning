@@ -3,15 +3,13 @@ layout: default
 title: Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping
 ---
 
-## Main Idea
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8isS5gR0wtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Video Presentation on YouTube](https://www.youtube.com/watch?v=8isS5gR0wtM)
 
 Using multi-task learning to efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. A calibration-free user-independent solution, desirable for clinical diagnostics. A stepping stone for an objective assessment of glaucoma patients' visual field.
 
 ![figures-main-idea-big](public/imgs/figures-main-idea.png)
-
-## Abstract
-
-Glaucoma is an eye disease that occurs without the onset of symptoms at initial, and late diagnosis results in irreversible degeneration of retinal ganglion cells. Standard automated perimetry is the gold standard for assessing glaucoma; however, the examination is subjective, where responses can fluctuate each time the test is performed, significantly confounding the test's interpretation. In this study, we present our approach that aims to provide a rapid point-of-care diagnostics for glaucoma patients by eliminating the cognitive aspect in existing visual field assessment. Unlike existing methods that mostly report the foveal target detection's accuracy, we employed a multi-task learning architecture that efficiently captures signals simultaneously from the fovea and the neighboring targets in the peripheral vision, generating a visual response map. Furthermore, we designed a multi-task learning module that learns multiple tasks in parallel efficiently. We evaluated our model classification on a 40-classes dataset, with yields 92% and 95% in accuracy and F1 score, respectively. Our model is able to perform on a calibration-free user-independent scenario, which is desirable for clinical diagnostics. Our proposed approach could be a stepping stone for an objective assessment of glaucoma patients' visual field.
 
 ---
 
@@ -29,7 +27,7 @@ This is Glaucoma.
 
 With the increase in the aging population, we are challenged to find solutions to provide healthcare needs for the elderly. As you age, the chance of you becoming blind is higher, with more than 80% of the world’s blind people older than 50. Overall, 75% of blindness from all causes is preventable, treatable, or curable.
 
-My research work tackles this issue by applying b[rain-computer interface](https://jinglescode.github.io/2020/03/03/fascinating-relationship-between-ai-neuroscience/) methods in clinical screening and diagnostic procedures. This could potentially provide a more accurate diagnosis of visual function detection in asymptomatic cases.
+This research work tackles this issue by applying [brain-computer interface](https://jinglescode.github.io/2020/03/03/fascinating-relationship-between-ai-neuroscience/) methods in clinical screening and diagnostic procedures. This could potentially provide a more accurate diagnosis of visual function detection in asymptomatic cases.
 
 ## About glaucoma and its impact
 
@@ -155,25 +153,25 @@ Evidently, this result shows that our approach can be an alternative to identify
 
 This study presented a deep learning method that potentially enables us to detect multiple SSVEP stimuli simultaneously, thus mapping a visual map of glaucoma patients, reducing visual field assessment time, and produce reliable test results.
 
-In view of recent events during disease outbreak and pandemics where non-essential hospital appointments are recommended to be kept to a minimum, this assessment method can reduce the number of tests needed, thus minimizing any unnecessary or additional tests. In essence, this study enables our future work to potentially assess glaucoma patients’ visual field to detect peripheral vision loss. To improve the reliability of the assessment results, utilizing SSVEP could eliminate a patient’s ability to carry out the procedure and variability of the patient’s mental state. Assessment time could be cut down by detecting multiple SSVEP targets at once and generating a visual response map.
-
-Our approach could be potentially suitable for providing a rapid point-of-care diagnostics for glaucoma patients.
+In view of recent events during disease outbreak and pandemics where non-essential hospital appointments are recommended to be kept to a minimum, this assessment method can reduce the number of tests needed, thus minimizing any unnecessary or additional tests. In essence, this study enables our future work to potentially assess glaucoma patients’ visual field to detect peripheral vision loss. To improve the reliability of the assessment results, utilizing SSVEP could eliminate a patient’s ability to carry out the procedure and variability of the patient’s mental state. Assessment time could be cut down by detecting multiple SSVEP targets at once and generating a visual response map. Our approach could be potentially suitable for providing a rapid point-of-care diagnostics for glaucoma patients.
 
 ## Citation
 
-If you use the model in your research and found it helpful, please cite the following paper:
+If you use the model in your research or found it helpful, please cite the following paper:
 
 ```
-pending...
+@inproceedings{khok2020deep,
+  title={Deep Multi-Task Learning for SSVEP Detection and Visual Response Mapping},
+  author={Khok, Hong Jing and Koh, Victor Teck Chang and Guan, Cuntai},
+  booktitle={2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
+  pages={1280--1285},
+  year={2020},
+  organization={IEEE}
+}
 ```
 
-## Codes
+## Code
 
-
-#### Experiment
-
-<script src="https://gist.github.com/jinglescode/3d74fe165dee44e2f794e56ce0a2a958.js"></script>
-
-#### Model
+Our model was developed with PyTorch, our codes are on [GitHub](https://github.com/jinglescode/ssvep-multi-task-learning).
 
 <script src="https://gist.github.com/jinglescode/b99c0c3c31af5c217c6305cacb7e16b0.js"></script>
