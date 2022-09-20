@@ -66,7 +66,7 @@ Our model is a unified system that generates a visual response map by learning t
 
 ## Dataset
 
-They dataset we used in our experiment is [HS-SSVEP](https://ieeexplore.ieee.org/document/7740878) by Yijun Wang, Xiaogang Chen, Xiaorong Gao, Shangkai Gao.
+They dataset we used in our experiment is [Benchmark dataset](https://ieeexplore.ieee.org/document/7740878) by Yijun Wang, Xiaogang Chen, Xiaorong Gao, Shangkai Gao.
 
 ## Paper Citation
 
